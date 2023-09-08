@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e4e27d;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    position: relative; 
+}
+
+h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#btn {
+    display: block;
+    margin: 0 auto 20px; 
+}
+
+.displayed-image {
+    max-width: 60%; 
+    height: 40%; 
+    margin-top: 20px; 
+    display: block; 
+    margin: 0 auto; 
+}
